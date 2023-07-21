@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => (
-  <header className="bg-white flex flex-row justify-around mt-6">
+  <header className="bg-white flex flex-row justify-around mt-6 items-center">
     <div className="flex flex-row text-xl font-bold ">
       Lan<p className="text-blue-600">der</p>
     </div>
@@ -24,7 +24,7 @@ const Header = () => (
       </ul>
     </div>
     <div>
-      <button className="bg-black text-white p-2">Contact</button>
+      <button className="bg-black text-white p-2 px-4">Contact</button>
     </div>
   </header>
 );
