@@ -9,12 +9,17 @@ import About from "./components/About.js";
 import Contact from "./components/Contact.js";
 import Landing from "./components/Landing";
 import Providing from "./components/providing";
+import Categorie from "./components/Categorie";
+import Popular from "./components/components/Popular";
 
 const App = () => (
   <Router>
     <Header />
     <Landing />
     <Providing />
+    <Categorie />
+    <Popular />
+
     <Switch>
       <Route exact path="/">
         {/*<Home />*/}
