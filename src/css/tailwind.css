@@ -50,3 +50,6 @@
   transform: scale(0.9);
   transition: opacity 350ms, transform 350ms;
 }
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
